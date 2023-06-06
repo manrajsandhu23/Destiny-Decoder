@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Destiny Decoder</title>
+</head>
+
+<body class="bg-[#f38087] font-clash tracking-wide">
+    <h1 class="text-3xl text-center font-clash font-semibold">Destiny Decoder</h1>
+    <div class="border-2 border-black border-solid p-4 mt-12 mx-4 lg:mx-64 text-center">
+        <div>
+            <div class="">
+                <div class="m-4">
+                    <label class="font-medium" for="dob">Enter your Date of Birth</label>
+                    <br>
+                    <input
+                        class="bg-[#f38087] my-2 border-2 border-black border-solid outline-none font-medium p-1 w-[222px]"
+                        type="date" name="dateOfBirth" id="dob">
+                </div>
+                <div>
+                    <label class="font-medium " for="luckyNumber">Enter your Lucky Number</label>
+                    <br>
+                    <input class="bg-[#f38087] my-2 border-2 border-black border-solid outline-none font-medium p-1"
+                        type="number" name="favNumber" id="luckyNumber">
+                </div>
+            </div>
+            <div>
+
+                <button class="m-4 py-2 px-6 bg-black text-[#f38087] rounded-3xl outline-none " id="sub"
+                    type="submit">Submit </button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="text-center">
+            <p class="font-medium p-4" id="output"></p>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
